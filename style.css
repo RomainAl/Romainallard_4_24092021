@@ -7,6 +7,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.desc{
+    font-size: 1.8em;
+    margin: 0 20px 0 20px;
+}
+
+.citation{
+    font-size: 1.3em;
+    font-style: italic;
+    margin: 0 20px 0 20px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -677,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -706,6 +716,7 @@ p {
 
 h2 {
     font-size: 22px;
+    font-weight: bolder;
     line-height: 1.4em;
 }
 
@@ -778,6 +789,14 @@ h4 {
     color: #F3976C!important;
 }
 
+.tc-white-ream {
+    color: #fff9f7!important;
+}
+
+.tc-white-real {
+    color: #fff8f5!important;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
@@ -822,7 +841,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
